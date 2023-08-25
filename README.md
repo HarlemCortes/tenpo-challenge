@@ -32,7 +32,7 @@ A continuación, se detallan los pasos para ejecutar la API en tu entorno local.
    Clona el repositorio desde GitHub:
 
    ```bash
-   git clone <URL_del_repositorio>
+   git clone https://github.com/HarlemCortes/tenpo-challenge.git
    ```
 
 2. **Ejecutar Docker Compose**:
@@ -53,7 +53,7 @@ A continuación, se detallan los pasos para ejecutar la API en tu entorno local.
 
 ## Pruebas Unitarias
 
-El proyecto incluye pruebas unitarias para garantizar la calidad del código. Puedes ejecutar las pruebas usando:
+El proyecto incluye pruebas unitarias para garantizar la calidad del código. Puedes ejecutar las pruebas con **Maven** ejecutando:
 
 ```bash
 ./mvn test
@@ -61,7 +61,7 @@ El proyecto incluye pruebas unitarias para garantizar la calidad del código. Pu
 
 ## Repositorio Público
 
-El código fuente de la API se encuentra en un repositorio público en GitHub: [Enlace al Repositorio](<URL_del_repositorio>)
+El código fuente de la API se encuentra en un repositorio público en GitHub: [Enlace al Repositorio](https://github.com/HarlemCortes/tenpo-challenge)
 
 ## Descripción de los Servicios
 
@@ -103,3 +103,9 @@ A continuación, se proporciona una descripción de los servicios disponibles en
 - **Roles Requeridos**: Ninguno
 
 
+### Notas Adicionales
+
+Si deseas ejecutar la API en un contenedor Docker separado, puedes descargar la imagen de la API utilizando el siguiente comando:
+
+```bash
+docker pull harlem90/sum-service:latest
