@@ -109,3 +109,8 @@ Si deseas ejecutar la API en un contenedor Docker separado, puedes descargar la 
 
 ```bash
 docker pull harlem90/sum-service:latest
+```
+
+**Servicio Mock para Porcentaje**
+
+La API utiliza un servicio mock para obtener el valor del porcentaje que se agrega a la suma. Este servicio se ha configurado para simular una probabilidad del 30% de error.

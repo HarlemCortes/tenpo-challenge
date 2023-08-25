@@ -28,7 +28,7 @@ public class PercentageServiceClientImpl implements PercentageServiceClient{
         // Optional<Integer> percentage = restTemplate.getForObject(serviceUrl, Integer.class);
 
         // Simulate an intentional error for testing
-        if (random.nextInt(10) < 8) { // Simulate an 80% chance of failure
+        if (random.nextInt(10) < 3) { // Simulate an 30% chance of failure
             log.error("Simulated service error.");
             throw new RuntimeException("Simulated service error.");
         }
